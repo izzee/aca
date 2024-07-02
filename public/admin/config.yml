@@ -6,16 +6,28 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
-    format: 'frontmatter'
+  - name: 'projects'
+    label: 'Projects'
+    label_singular: 'Project'
+    folder: 'content/projects'
+    format: 'yaml'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{title}}'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Category', name: 'category', widget: 'select', options: ['residential', 'institutional'] }
+      - { label: 'Location', name: 'location', widget: 'string'}
+      - { label: 'Size', name: 'size', widget: 'string'}
+      - { label: 'Type', name: 'type', widget: 'string'}
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Photographer', name: 'photographer', widget: 'string' }
+      - { label: 'Hero', name: 'hero', widget: 'image' }
+      - label: 'Images'
+        name: 'images' 
+        widget: 'list'
+        fields: 
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Orientation", name: "orientation", widget: "select", options: ['landscape', 'portrait'] }
+
