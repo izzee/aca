@@ -1,0 +1,25 @@
+intro: 
+  - line: Founded in 1999, Arthur Chabon Architects is an award winning, full-service architecture, interior design and graphic design firm. With projects throughout the world, ACA’s work ranges from academic and religious buildings to high-end, luxury residences. These projects include new buildings, adaptive re-use of existing buildings and both full and partial renovations.
+  - line: ACA’s practice is characterized by an intense focus on design and a close collaboration with their clients. The architectural language of their projects is never imposed or pre-conceived. Rather, it is discovered by analysis of the context, the requirements of the program, the nature of the materials, and the needs of their clients. With a common understanding and shared goals, ACA leads their clients to successful results.
+  - line: We are the proud recipients of the American Institute of Architect’s Faith and Form award for the Palm Beach Synagogue in Florida and the Institute of Classical Architecture and Art’s Newman Award for the Roaring Fork Compound in Aspen, Colorado. Our projects have been published in numerous print periodicals and on-line publications including Architectural Digest, Colorado Homes, Aspen Magazine, the Huffington Post and more.
+hero: riverbend-compound-1.jpg
+principal: 
+  - avatar: riverbend-compound-1.jpg
+    name: ARTHUR D. CHABON
+    description: Prior to starting his own firm, Mr. Chabon was an Associate Partner at Robert A.M. Stern Architects. Over thirteen years he designed and managed numerous residential projects. Upon founding Arthur Chabon Architects, he, in association with Hart Freeland Roberts and Robert A.M. Stern, worked on the development of interior architecture for the Nashville Public Library. In addition to extensive experience in high-end residential architecture and the design of custom furniture, Arthur Chabon participated in the development of corporate identity systems and signage programs for Bankboston, Cargill AGHorizons and Conoco. Mr. Chabon received a BFA in sculpture from Rhode Island School of Design in 1983 and a Master of Architecture from Columbia University in 1986.
+team: 
+  - name: 'Kin Ming Huang'
+    title: 'AIA | Associate'
+    image: 'KinMingHuang'
+  - name: 'Matthew Paul Cairo'
+    title: 'Studio Director'
+    image: 'MatthewPaulCairo'
+  - name: 'Teal Usher'
+    title: 'Senior Project Manager'
+    image: 'TealUsher'
+  - name: 'Linda Facci'
+    title: 'Senior Office Administrator'
+    image: 'LindaFacci'
+  - name: 'Leandro Puerto'
+    title: 'Digital Visualization'
+    image: 'LeandroPuerto'

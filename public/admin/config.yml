@@ -2,10 +2,25 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: static/img
-public_folder: /img
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: izzee
+    api_key: 478312484494422
 
 collections:
+  - name: 'about'
+    label: 'About'
+    folder: 'content'
+    format: 'yaml'
+    create: false
+    fields: 
+      - label: 'Intro'
+        name: 'intro'
+        widget: 'list'
+        fields: 
+          - {label: line, name: line, widget: string}
+  
   - name: 'projects'
     label: 'Projects'
     label_singular: 'Project'
