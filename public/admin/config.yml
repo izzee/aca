@@ -14,13 +14,26 @@ collections:
     folder: 'content'
     format: 'yaml'
     create: false
+    slug: '{{title}}'
+    editor:
+      preview: false
     fields: 
+      - { label: 'Title', name: 'title', widget: 'hidden' }
       - label: 'Intro'
         name: 'intro'
         widget: 'list'
         fields: 
-          - {label: line, name: line, widget: string}
-  
+          - {label: text,  name: text, widget: string}
+  - name: 'contact'
+    label: 'Contact'
+    folder: 'content'
+    format: 'yaml'
+    create: false
+    slug: '{{title}}'
+    editor:
+      preview: false
+    fields: 
+      - {label: Text, name: text, }
   - name: 'projects'
     label: 'Projects'
     label_singular: 'Project'

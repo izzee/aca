@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <NuxtLayout>
     <main>
       <h2>
         Arthur Chabon Architects is a New York based architecture and design firm with
@@ -7,7 +7,7 @@
         <NuxtLink to="/projects/institutional">institutional</NuxtLink> projects.
       </h2>
     </main>
-  </div>
+  </NuxtLayout>
 </template>
 
 <script setup>

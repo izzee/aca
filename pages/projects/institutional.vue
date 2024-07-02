@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <NuxtLayout>
     <ProjectList category="institutional"/>
-  </main>
+  </NuxtLayout>
 </template>
