@@ -1,0 +1,23 @@
+title: "Fifth Avenue Duplex"
+category: "residential"
+location: "New York, NY"
+size: "4,200 sf"
+type: "Interior Architecture"
+description: "A remodel of a Fifth Avenue penthouse duplex with spectacular views of Central Park, this apartment was designed to feature an important collection of modern art and to provide a comfortable relaxed atmosphere for an “empty nest” couple. Working with the designer Mica Ertegun, we created a crisp and clear architectural background. We opened up separated spaces and replaced elaborate moldings with simplified ones."
+photographer: "Michel Arnaud"
+hero: "fifth-avenue-duplex-1.jpg"
+images: 
+  - image: 'fifth-avenue-duplex-2.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-duplex-3.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-duplex-4.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-duplex-5.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-duplex-6.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-duplex-7.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-duplex-8.jpg'
+    orientation: landscape

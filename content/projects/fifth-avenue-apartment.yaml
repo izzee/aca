@@ -1,0 +1,31 @@
+title: "Fifth Avenue Apartment"
+category: "residential"
+location: "New York, NY"
+size: "4,500 sf"
+type: "Interior Architecture"
+description: "Walls were removed and rooms opened up to create an expansive, loft-like space in this Fifth Avenue Apartment. Modern and refined yet warm and comfortable, the apartment commands vast views of Central Park and Mid-Town Manhattan."
+photographer: "Whitney Cox"
+hero: "fifth-avenue-apartment-1.jpg"
+images: 
+  - image: 'fifth-avenue-apartment-2.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-apartment-3.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-apartment-4.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-apartment-5.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-apartment-6.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-apartment-7.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-apartment-8.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-apartment-9.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-apartment-10.jpg'
+    orientation: landscape
+  - image: 'fifth-avenue-apartment-11.jpg'
+    orientation: portrait
+  - image: 'fifth-avenue-apartment-12.jpg'
+    orientation: portrait

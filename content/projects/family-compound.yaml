@@ -1,0 +1,34 @@
+title: "Family Compound"
+category: "residential"
+location: "Southern, NJ"
+size: "15,000 sf Main Residence"
+type: "Interior Architecture, Exterior Alterations and Additions"
+description: "The house is situated in the center of a vast picturesque working farm with extensive equestrian and agricultural functions.  This project is largely the result of a multi-year process whereby the scope of work evolved from a simple kitchen and family room addition into a complete renovation and expansion with two story additions at each end.  Because the design was not fully conceived in advance, evolving even during construction, there is complete unison between the process undertaken, the needs of the client, the typology of the building and its “final” form.  The result is a building that appears to have grown over the years in much the same way that an actual farmhouse complex would have grown. The ground floor is organized in an enfilade of entertainment and family spaces. The more private spaces, the family room and the sitting room, are placed at the ends. Wrapping around the sitting room and continuing across the front entrance, is a deep porch located to take advantage of cool breezes, expansive vistas and dramatic&nbsp;sunsets."
+photographer: "Michel Arnaud"
+hero: 'family-compound-1.jpg'
+images: 
+  - image: 'family-compound-2.jpg'
+    orientation: landscape
+  - image: 'family-compound-3.jpg'
+    orientation: landscape
+  - image: 'family-compound-4.jpg'
+    orientation: portrait
+    half: true
+  - image: 'family-compound-5.jpg'
+    orientation: portrait
+    half: true
+  - image: 'family-compound-6.jpg'
+    orientation: portrait
+    half: true
+  - image: 'family-compound-7.jpg'
+    orientation: portrait
+    half: true
+  - image: 'family-compound-8.jpg'
+    orientation: landscape
+  - image: 'family-compound-9.jpg'
+    orientation: landscape
+  - image: 'family-compound-10.jpg'
+    orientation: portrait
+    half: true
+  - image: 'family-compound-11.jpg'
+    orientation: landscape

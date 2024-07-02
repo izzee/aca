@@ -1,0 +1,26 @@
+title: "Great Oaks"
+category: "residential"
+location: "Chatam, NJ"
+size: "18,000 sf"
+type: "Addition and Renovation"
+description: "In this addition and restoration we maintain the principle of formal balance typical of Georgian design, yet by not making the composition rigorously symmetrical, we give the house a casual feeling. The lack of formality reflects both the manner in which the owners live and the recreational function of the new wings. The use of stone rather than brick on the exterior of the pool building and garage accentuates the fact that the complex was built over time and gives visual variety to the façade. The tile roof of the pool building, the lead urns and the garden ornaments are salvaged artifacts purchased in England. Their authenticity adds patina that would otherwise take decades to achieve."
+hero: "great-oaks-1.jpg"
+images: 
+  - image: 'great-oaks-2.jpg'
+    orientation: landscape
+  - image: 'great-oaks-3.jpg'
+    orientation: landscape
+  - image: 'great-oaks-4.jpg'
+    orientation: landscape
+  - image: 'great-oaks-5.jpg'
+    orientation: landscape
+  - image: 'great-oaks-6.jpg'
+    orientation: landscape
+  - image: 'great-oaks-7.jpg'
+    orientation: landscape
+  - image: 'great-oaks-8.jpg'
+    orientation: portrait
+  - image: 'great-oaks-9.jpg'
+    orientation: portrait
+  - image: 'great-oaks-10.jpg'
+    orientation: landscape
