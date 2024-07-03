@@ -7,6 +7,7 @@ media_library:
   config:
     cloud_name: izzee
     api_key: 478312484494422
+    output_filename_only: true
 
 collections:
   - label: 'Pages'
