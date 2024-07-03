@@ -17,17 +17,17 @@ description: A project that has spanned decades and continues to evolve, this
   programmatic and practical needs of the family, the natural environment, and
   the garden views.
 photographer: Whitney Cox
-hero: family-farm-house-1.jpg
+hero: https://res.cloudinary.com/izzee/image/upload/v1719869116/Projects/family-farm-house-1.jpg
 images:
-  - image: family-farm-house-2.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869117/Projects/family-farm-house-2.jpg
     orientation: landscape
-  - image: family-farm-house-3.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869117/Projects/family-farm-house-3.jpg
     orientation: landscape
-  - image: family-farm-house-4.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869118/Projects/family-farm-house-4.jpg
     orientation: landscape
-  - image: family-farm-house-5.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869119/Projects/family-farm-house-5.jpg
     orientation: landscape
-  - image: family-farm-house-6.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869119/Projects/family-farm-house-6.jpg
     orientation: landscape
-  - image: family-farm-house-7.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869120/Projects/family-farm-house-7.jpg
     orientation: landscape
