@@ -9,31 +9,47 @@ media_library:
     api_key: 478312484494422
 
 collections:
-  - name: 'about'
-    label: 'About'
-    folder: 'content'
-    format: 'yaml'
-    create: false
-    slug: '{{title}}'
-    editor:
-      preview: false
-    fields: 
-      - { label: 'Title', name: 'title', widget: 'hidden' }
-      - label: 'Intro'
-        name: 'intro'
-        widget: 'list'
-        fields: 
-          - {label: text,  name: text, widget: string}
-  - name: 'contact'
-    label: 'Contact'
-    folder: 'content'
-    format: 'yaml'
-    create: false
-    slug: '{{title}}'
-    editor:
-      preview: false
-    fields: 
-      - {label: Text, name: text, }
+  - label: 'Pages'
+    name: 'pages'
+    files:
+    - name: 'home'
+      label: 'Home Page'
+      file: 'content/home.yml'
+      format: 'yaml'
+      create: false
+      slug: '{{title}}'
+      editor:
+        preview: false
+      fields: 
+        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - {label: 'Text', name: 'text', widget: 'string'}    
+    - name: 'about'
+      label: 'About Page'
+      file: 'content/about.yml'
+      format: 'yaml'
+      create: false
+      slug: '{{title}}'
+      editor:
+        preview: false
+      fields: 
+        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - label: 'Intro'
+          name: 'intro'
+          widget: 'list'
+          fields: 
+            - {label: 'text',  name: 'text', widget: 'string'}
+    - name: 'contact'
+      label: 'Contact Page'
+      file: 'content/contact.yml'
+      format: 'yaml'
+      create: false
+      slug: '{{title}}'
+      editor:
+        preview: false
+      fields: 
+        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - {label: 'Text', name: 'text', widget: 'string'}
+
   - name: 'projects'
     label: 'Projects'
     label_singular: 'Project'
@@ -56,6 +72,6 @@ collections:
         name: 'images' 
         widget: 'list'
         fields: 
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Orientation", name: "orientation", widget: "select", options: ['landscape', 'portrait'] }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Orientation', name: 'orientation', widget: 'select', options: ['landscape', 'portrait'] }
 

@@ -1,5 +1,5 @@
 <template>
   <NuxtLayout>
-    <ProjectList category="residential" />
+    <ProjectsList category="residential" />
   </NuxtLayout>
 </template>

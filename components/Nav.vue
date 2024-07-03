@@ -7,7 +7,7 @@
       </svg>
     </NuxtLink>
     <nav>
-      <NuxtLink to="/projects">Projects</NuxtLink>
+      <NuxtLink to="/projects/residential">Projects</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/contact">Contact</NuxtLink>
     </nav>

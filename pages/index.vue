@@ -1,12 +1,8 @@
 <template>
   <NuxtLayout>
-    <main>
-      <h2>
-        Arthur Chabon Architects is a New York based architecture and design firm with
-        an international practice specializing in high-end <NuxtLink to="/projects/residential">residential</NuxtLink> and
-        <NuxtLink to="/projects/institutional">institutional</NuxtLink> projects.
-      </h2>
-    </main>
+    <ContentDoc v-slot="{ doc }">
+      <h2 v-html="doc.text"/>
+    </ContentDoc>
   </NuxtLayout>
 </template>
 
