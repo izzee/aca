@@ -50,10 +50,9 @@ collections:
         - { label: 'Title', name: 'title', widget: 'hidden' }
         - {label: 'Text', name: 'text', widget: 'string'}
 
-  - name: 'projects'
-    label: 'Projects'
-    label_singular: 'Project'
-    folder: 'content/projects'
+  - name: 'work'
+    label: 'Work'
+    folder: 'content/work'
     format: 'yaml'
     create: true
     slug: '{{title}}'

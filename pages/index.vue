@@ -1,15 +1,11 @@
 <template>
   <NuxtLayout>
     <ContentDoc v-slot="{ doc }">
-      <h2 v-html="doc.text"/>
+      <Hero :images="doc.hero"/>
+      <main>
+        <h2 v-html="doc.text"/>
+        <Press :logos="doc.press"/>
+      </main>
     </ContentDoc>
   </NuxtLayout>
 </template>
-
-<script setup>
-useHead({
-  script: [
-    { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
-  ],
-});
-</script>

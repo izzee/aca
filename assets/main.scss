@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: $white;
+  max-width: 1440px;
+  margin: auto;
+  
+}
+
+.main-wrapper {
+  @include bp(sm) {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  a {
+    color: black;
+    margin-left: 16px;
+    text-transform: capitalize;
+    user-select: none;
+
+    @include bp(sm) {
+      margin-left: 32px;
+    }
+
+    &:hover,
+    &.active,
+    &.nuxt-link-active,
+    &.nuxt-link-exact-active {
+      color: $blue;
+      fill: $blue;
+    }
+  }
+}
+
+main {
+  padding: 16px;
+
+  @include bp(sm){
+    flex: 1;
+    padding: 32px;
+  }
+}
+
+section + section {
+  margin-top: 40px;
+  @include bp(sm){
+    margin-top: 80px;
+  }
+}

@@ -7,9 +7,49 @@
       </svg>
     </NuxtLink>
     <nav>
-      <NuxtLink to="/projects/residential">Projects</NuxtLink>
+      <NuxtLink to="/work/residential">Work</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/contact">Contact</NuxtLink>
     </nav>
   </header>
 </template>
+
+<style lang="scss" scoped>
+a:not(.nuxt-link-exact-active) .site-logo:hover {
+  color: $blue;
+  fill: $blue;
+}
+header {
+  position: sticky;
+  top: 0px;
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: content-box;
+  background-color: $white;
+  z-index: 6;
+  height: 32px;
+
+  > a, svg {
+    height: 100%;
+  }
+
+  nav a {
+    line-height: 1;
+  }
+
+  svg {
+    width: auto;
+    max-width: 100%;
+  }
+  
+  @include bp(sm) {
+    padding: 32px;
+    height: 64px;
+    svg {
+      height: 64px;
+    }
+  }
+}
+</style>

@@ -7,6 +7,10 @@ export default defineNuxtConfig({
       baseURL: 'https://res.cloudinary.com/izzee/image/upload/'
     }
   },
+  css: [
+    '~/assets/main.scss',
+    '~/assets/type.scss'
+  ],
   vite: {
     css: {
       preprocessorOptions: {

@@ -1,2 +1,13 @@
 title: Home
-text: Arthur Chabon Architects is a New York based architecture and design firm with an international practice specializing in high-end <a href="/projects/residential">residential</a> and <a href="/projects/institutional">institutional</a> projects.
+text: Arthur Chabon Architects is a New York based architecture and design firm with an international practice specializing in high-end <a href="/work/residential">residential</a> and <a href="/work/institutional">institutional</a> projects.
+hero:
+  - image: hero1.jpg
+  - image: hero2.jpg
+  - image: hero3.jpg
+  - image: hero4.jpg
+  - image: hero5.jpg
+  - image: hero6.jpg
+  - image: hero7.jpg
+press:
+  - row: ['architectural-digest.svg', 'huffpost.svg']
+  - row: ['luxe.png','coloradohomes.svg','aspenmagazine.png']
