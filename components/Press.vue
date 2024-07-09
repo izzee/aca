@@ -1,11 +1,11 @@
 <template>
   <div class="press">
     <div 
-      v-for="rows in props.logos"
-      :class="`row col-${rows.row.length}`"
+      v-for="rows in props.press"
+      :class="`row col-${rows.logos.length}`"
     >
       <NuxtImg 
-        v-for="logo in rows.row" 
+        v-for="logo in rows.logos" 
         :key="logo.image"
         :src="`aca/${logo.image}`" 
         :alt="logo.alt || ''"
@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-  const props = defineProps(['logos'])
+  const props = defineProps(['press'])
 </script>
 
 <style lang="scss" scoped>

@@ -29,23 +29,23 @@ collections:
           widget: 'list'
           fields: 
             - { label: 'Image', name: 'image', widget: 'image' }
-        - label: 'Press'
+        - label: 'Press logo rows'
+          label_singular: 'press logo row'
           name: 'press'
           widget: 'list'
           fields: 
-            - label: 'Row'
-              name: 'row'
+            - label: 'Logos'
+              label_singular: 'logo'
+              name: 'logo'
               widget: 'list'
               fields:
                 - { label: 'Image', name: 'image', widget: 'image' }
         - label: 'Work'
           name: 'work'
           widget: 'list'
-          fields: 
+          fields:
             - {label: 'Cateogry', name: 'category', widget: 'text'}
             - {label: 'Image', name: 'image', widget: 'image'}
-
-
 
     - name: 'about'
       label: 'About Page'
@@ -57,11 +57,23 @@ collections:
         preview: false
       fields: 
         - { label: 'Title', name: 'title', widget: 'hidden' }
-        - label: 'Intro'
+        - label: 'Intro paragraphs'
+          label_singular: 'intro paragraph'
           name: 'intro'
           widget: 'list'
           fields: 
-            - {label: 'text',  name: 'text', widget: 'string'}
+            - {label: 'Text',  name: 'text', widget: 'string'}
+        - label: 'Team members'
+          label_singular: 'team member'
+          name: 'team'
+          widget: 'list'
+          fields: 
+            - {label: 'Name',  name: 'name', widget: 'string'}
+            - {label: 'Title', name: 'title', widget: 'string'}
+            - {label: 'Image', name: 'image', widget: 'image'}
+
+
+    
     - name: 'contact'
       label: 'Contact Page'
       file: 'content/contact.yml'
@@ -71,7 +83,7 @@ collections:
       editor:
         preview: false
       fields: 
-        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - {label: 'Title', name: 'title', widget: 'hidden' }
         - {label: 'Text', name: 'text', widget: 'string'}
 
   - name: 'work'

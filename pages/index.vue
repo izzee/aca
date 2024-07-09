@@ -4,7 +4,7 @@
       <Hero :images="doc.hero"/>
       <main>
         <h2 v-html="doc.text"/>
-        <Press :logos="doc.press"/>
+        <Press :press="doc.press"/>
         <div class="project-categories">
           <div v-for="category in doc.work" class="category-tile">
             <NuxtLink :to="`/work/${category.category}`">

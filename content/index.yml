@@ -9,10 +9,10 @@ hero:
   - image: hero6.jpg
   - image: hero7.jpg
 press:
-  - row: 
+  - logos: 
     - image: 'architectural-digest.svg'
     - image: 'huffpost.svg'
-  - row: 
+  - logos: 
     - image: 'luxe.png'
     - image: 'coloradohomes.svg'
     - image: 'aspenmagazine.png'
