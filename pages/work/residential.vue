@@ -1,7 +1,8 @@
 <template>
   <NuxtLayout>
+    <WorkNav/>
     <main>
-      <WorkList category="residential" />
+      <WorkGrid category="residential" />
     </main>
   </NuxtLayout>
 </template>

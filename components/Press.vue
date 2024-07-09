@@ -6,8 +6,8 @@
     >
       <NuxtImg 
         v-for="logo in rows.row" 
-        :key="logo.logo"
-        :src="`aca/${logo}`" 
+        :key="logo.image"
+        :src="`aca/${logo.image}`" 
         :alt="logo.alt || ''"
         height="80"
         class="press-icon"

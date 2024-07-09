@@ -2,9 +2,10 @@
   <div class="work-grid">
 
     <div v-for="item in work" :key="item._path">
-      <NuxtLink :to="item._path">
+          <NuxtLink :to="item._path" class="thumbnail">
         <NuxtImg 
           provider="cloudinary"
+          loading="lazy"
           width="600"
           :src="`/aca/${item.hero}`" 
         />

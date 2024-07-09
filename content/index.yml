@@ -9,5 +9,15 @@ hero:
   - image: hero6.jpg
   - image: hero7.jpg
 press:
-  - row: ['architectural-digest.svg', 'huffpost.svg']
-  - row: ['luxe.png','coloradohomes.svg','aspenmagazine.png']
+  - row: 
+    - image: 'architectural-digest.svg'
+    - image: 'huffpost.svg'
+  - row: 
+    - image: 'luxe.png'
+    - image: 'coloradohomes.svg'
+    - image: 'aspenmagazine.png'
+work:
+  - category: 'residential'
+    image: 'hero1.jpg'
+  - category: 'institutional'
+    image: 'hero2.jpg'

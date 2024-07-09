@@ -1,7 +1,8 @@
 <template>
   <NuxtLayout>
+    <WorkNav/>
     <main>
-      <WorkList category="institutional"/>
+      <WorkGrid category="institutional"/>
     </main>
   </NuxtLayout>
 </template>

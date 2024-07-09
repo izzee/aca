@@ -1,33 +1,38 @@
 <template>
   <NuxtLayout>
-    <ContentDoc v-slot="{ doc }">
-      <main>
-        <NuxtImg 
-          :src="`aca/${doc.hero}`"
-           class="project-hero"
-          provider="cloudinary"
-        />
-        <div class="project-info">
-          <h2  class="project-title">{{ doc.title }}</h2 >
-          <div class="project-facts">
-            <p v-html="doc.size" />
-            <p v-html="doc.type" />
-            <p v-html="doc.facts" />
-          </div>
-          <p class="project-description" v-html="doc.description" />
-        </div>
-        <div class="project-images">
+    <WorkNav/>
+    <ContentDoc>
+      <template v-slot="{ doc }">
+        <main>
           <NuxtImg 
-            v-for="image in doc.images"
-            :key="image.image"
-            :src="`aca/${image.image}`" 
-            :alt="image.alt || ''"
-            :class="image.orientation"
+            :src="`aca/${doc.hero}`"
+            class="project-hero"
             provider="cloudinary"
           />
-        </div>
-        
-      </main>
+          <div class="project-info">
+            <h2  class="project-title">{{ doc.title }}</h2 >
+            <div class="project-facts">
+              <p v-html="doc.size" />
+              <p v-html="doc.type" />
+              <p v-html="doc.facts" />
+            </div>
+            <p class="project-description" v-html="doc.description" />
+          </div>
+          <div class="project-images">
+            <NuxtImg 
+              v-for="image in doc.images"
+              :key="image.image"
+              :src="`aca/${image.image}`" 
+              :alt="image.alt || ''"
+              :class="image.orientation"
+              loading="lazy"
+              provider="cloudinary"
+            />
+          </div>
+        </main>
+      </template>
+      <template #not-found>
+      </template>
     </ContentDoc>
   </NuxtLayout>
 </template>

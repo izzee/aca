@@ -14,7 +14,7 @@ collections:
     files:
     - name: 'home'
       label: 'Home Page'
-      file: 'content/home.yml'
+      file: 'content/index.yml'
       format: 'yaml'
       create: false
       slug: '{{title}}'
@@ -22,7 +22,31 @@ collections:
         preview: false
       fields: 
         - { label: 'Title', name: 'title', widget: 'hidden' }
-        - {label: 'Text', name: 'text', widget: 'string'}    
+        - {label: 'Text', name: 'text', widget: 'string'} 
+        - label: 'Images'
+          label_singular: 'image'
+          name: 'hero'
+          widget: 'list'
+          fields: 
+            - { label: 'Image', name: 'image', widget: 'image' }
+        - label: 'Press'
+          name: 'press'
+          widget: 'list'
+          fields: 
+            - label: 'Row'
+              name: 'row'
+              widget: 'list'
+              fields:
+                - { label: 'Image', name: 'image', widget: 'image' }
+        - label: 'Work'
+          name: 'work'
+          widget: 'list'
+          fields: 
+            - {label: 'Cateogry', name: 'category', widget: 'text'}
+            - {label: 'Image', name: 'image', widget: 'image'}
+
+
+
     - name: 'about'
       label: 'About Page'
       file: 'content/about.yml'
