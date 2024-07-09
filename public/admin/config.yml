@@ -21,7 +21,7 @@ collections:
       editor:
         preview: false
       fields: 
-        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - {label: 'Title', name: 'title', widget: 'hidden' }
         - {label: 'Intro text', name: 'text', widget: 'string'} 
         - label: 'Hero Images'
           label_singular: 'hero image'
@@ -58,6 +58,11 @@ collections:
         preview: false
       fields: 
         - { label: 'Title', name: 'title', widget: 'hidden' }
+        - {label: 'Hero', name: 'hero', widget: 'image'} 
+        - {label: 'Principal image',  name: 'principal_image', widget: 'image'}
+        - {label: 'Principal Name',  name: 'principal_name', widget: 'string'}
+        - {label: 'Principal Title', name: 'principal_title', widget: 'string'}
+        - {label: 'Principal Text', name: 'principal_text', widget: 'string'}
         - label: 'Intro paragraphs'
           label_singular: 'intro paragraph'
           name: 'intro'
@@ -65,13 +70,6 @@ collections:
           fields: 
             - {label: 'Text',  name: 'text', widget: 'string'}
 
-        - label: 'Principal'
-          name: 'principal'
-          fields: 
-            - {label: 'Image',  name: 'image', widget: 'image'}
-            - {label: 'Name',  name: 'name', widget: 'string'}
-            - {label: 'Title', name: 'title', widget: 'string'}
-            - {label: 'Text', name: 'text', widget: 'string'}
 
         - label: 'Team members'
           label_singular: 'team member'

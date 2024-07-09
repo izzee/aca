@@ -14,12 +14,12 @@
         </section>
         
         <section class="about-principal">
-        <NuxtImg :src="`/aca/${doc.principal.image}`" provider="cloudinary"/>
+        <NuxtImg :src="`/aca/${doc.principal_image}`" provider="cloudinary"/>
       
           <div class="principal-info">
-            <p> {{doc.principal.name}} </p>
-            <p> {{doc.principal.title}} </p>
-            <p class="info-body" >{{doc.principal.text}}</p>
+            <p> {{doc.principal_name}} </p>
+            <p> {{doc.principal_title}} </p>
+            <p class="info-body" >{{doc.principal_text}}</p>
           </div>
         </section>
 
