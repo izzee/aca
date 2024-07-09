@@ -14,7 +14,7 @@
         </section>
         
         <section class="about-principal">
-        <NuxtImg :src="`/aca/${doc.principal.avatar}`" provider="cloudinary"/>
+        <NuxtImg :src="`/aca/${doc.principal.image}`" provider="cloudinary"/>
       
           <div class="principal-info">
             <p> {{doc.principal.name}} </p>

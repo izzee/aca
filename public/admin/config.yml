@@ -22,9 +22,9 @@ collections:
         preview: false
       fields: 
         - { label: 'Title', name: 'title', widget: 'hidden' }
-        - {label: 'Text', name: 'text', widget: 'string'} 
-        - label: 'Images'
-          label_singular: 'image'
+        - {label: 'Intro text', name: 'text', widget: 'string'} 
+        - label: 'Hero Images'
+          label_singular: 'hero image'
           name: 'hero'
           widget: 'list'
           fields: 
@@ -36,11 +36,12 @@ collections:
           fields: 
             - label: 'Logos'
               label_singular: 'logo'
-              name: 'logo'
+              name: 'logos'
               widget: 'list'
               fields:
                 - { label: 'Image', name: 'image', widget: 'image' }
-        - label: 'Work'
+        - label: 'Work categories'
+          label_singular: 'work cateogry'
           name: 'work'
           widget: 'list'
           fields:
@@ -63,6 +64,15 @@ collections:
           widget: 'list'
           fields: 
             - {label: 'Text',  name: 'text', widget: 'string'}
+
+        - label: 'Princial'
+          name: 'principal'
+          fields: 
+            - {label: 'Image',  name: 'image', widget: 'image'}
+            - {label: 'Name',  name: 'name', widget: 'string'}
+            - {label: 'Title', name: 'title', widget: 'string'}
+            - {label: 'Text', name: 'text', widget: 'string'}
+
         - label: 'Team members'
           label_singular: 'team member'
           name: 'team'
@@ -71,8 +81,6 @@ collections:
             - {label: 'Name',  name: 'name', widget: 'string'}
             - {label: 'Title', name: 'title', widget: 'string'}
             - {label: 'Image', name: 'image', widget: 'image'}
-
-
     
     - name: 'contact'
       label: 'Contact Page'

@@ -5,10 +5,10 @@ intro:
   - text: We are the proud recipients of the American Institute of Architect’s Faith and Form award for the Palm Beach Synagogue in Florida and the Institute of Classical Architecture and Art’s Newman Award for the Roaring Fork Compound in Aspen, Colorado. Our projects have been published in numerous print periodicals and on-line publications including Architectural Digest, Colorado Homes, Aspen Magazine, the Huffington Post and more.
 hero: office.jpg
 principal: 
-  avatar: ArthurChabon.jpg
-  name: ARTHUR D. CHABON
-  title: AIA | Principal
-  text: Prior to starting his own firm, Mr. Chabon was an Associate Partner at Robert A.M. Stern Architects. Over thirteen years he designed and managed numerous residential projects. Upon founding Arthur Chabon Architects, he, in association with Hart Freeland Roberts and Robert A.M. Stern, worked on the development of interior architecture for the Nashville Public Library. In addition to extensive experience in high-end residential architecture and the design of custom furniture, Arthur Chabon participated in the development of corporate identity systems and signage programs for Bankboston, Cargill AGHorizons and Conoco. Mr. Chabon received a BFA in sculpture from Rhode Island School of Design in 1983 and a Master of Architecture from Columbia University in 1986.
+  image: 'ArthurChabon.jpg'
+  name: 'ARTHUR D. CHABON'
+  title: 'AIA | Principal'
+  text: 'Prior to starting his own firm, Mr. Chabon was an Associate Partner at Robert A.M. Stern Architects. Over thirteen years he designed and managed numerous residential projects. Upon founding Arthur Chabon Architects, he, in association with Hart Freeland Roberts and Robert A.M. Stern, worked on the development of interior architecture for the Nashville Public Library. In addition to extensive experience in high-end residential architecture and the design of custom furniture, Arthur Chabon participated in the development of corporate identity systems and signage programs for Bankboston, Cargill AGHorizons and Conoco. Mr. Chabon received a BFA in sculpture from Rhode Island School of Design in 1983 and a Master of Architecture from Columbia University in 1986.'
 team: 
   - name: 'Kin Ming Huang'
     title: 'AIA | Associate'
