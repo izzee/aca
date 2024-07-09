@@ -65,7 +65,7 @@ collections:
           fields: 
             - {label: 'Text',  name: 'text', widget: 'string'}
 
-        - label: 'Princial'
+        - label: 'Principal'
           name: 'principal'
           fields: 
             - {label: 'Image',  name: 'image', widget: 'image'}
