@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout>
     <ContentDoc v-slot="{ doc }">
-      <main>
+      <main v-motion-fade-visible-once>
         <h2 v-html="doc.text"/>
       <form netlify
           netlify-honeypot

@@ -33,9 +33,12 @@ collections:
           label_singular: 'press logo row'
           name: 'press'
           widget: 'list'
+          create: false
           fields: 
             - label: 'Logos'
               label_singular: 'logo'
+              create: false
+
               name: 'logos'
               widget: 'list'
               fields:
@@ -56,20 +59,19 @@ collections:
       slug: '{{title}}'
       editor:
         preview: false
-      fields: 
-        - { label: 'Title', name: 'title', widget: 'hidden' }
-        - {label: 'Hero', name: 'hero', widget: 'image'} 
-        - {label: 'Principal image',  name: 'principal_image', widget: 'image'}
-        - {label: 'Principal Name',  name: 'principal_name', widget: 'string'}
-        - {label: 'Principal Title', name: 'principal_title', widget: 'string'}
-        - {label: 'Principal Text', name: 'principal_text', widget: 'string'}
+      fields:
         - label: 'Intro paragraphs'
           label_singular: 'intro paragraph'
           name: 'intro'
           widget: 'list'
           fields: 
             - {label: 'Text',  name: 'text', widget: 'string'}
-
+        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - {label: 'Hero', name: 'hero', widget: 'image'} 
+        - {label: 'Principal image',  name: 'principal_image', widget: 'image'}
+        - {label: 'Principal Name',  name: 'principal_name', widget: 'string'}
+        - {label: 'Principal Title', name: 'principal_title', widget: 'string'}
+        - {label: 'Principal Text', name: 'principal_text', widget: 'string'}
 
         - label: 'Team members'
           label_singular: 'team member'

@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <WorkNav/>
+    <WorkNav />
     <ContentDoc>
       <template v-slot="{ doc }">
         <main>
@@ -8,6 +8,7 @@
             :src="`aca/${doc.hero}`"
             class="project-hero"
             provider="cloudinary"
+            v-motion-fade-visible-once 
           />
           <div class="project-info">
             <h2  class="project-title">{{ doc.title }}</h2 >
@@ -27,6 +28,7 @@
               :class="image.orientation"
               loading="lazy"
               provider="cloudinary"
+              v-motion-fade-visible-once
             />
           </div>
         </main>

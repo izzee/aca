@@ -1,29 +1,9 @@
 <template>
   <nav class="work-nav">
-    <NuxtLink 
-      v-for="category in categories"
-      v-html="category.replaceAll('-', ' ')"
-      :key="category"
-      :to="`/work/${category.replace(/ +/g, '-')}`"
-    />
+    <NuxtLink to="/work/residential">Residential</NuxtLink>
+    <NuxtLink to="/work/institutional">Institutional</NuxtLink>
   </nav>
 </template>
-<script>
-
-export default{  
-  data() {
-    return {
-      categories: [
-        'residential',
-        'institutional',
-        'on-the-boards',
-        'product-design'
-
-      ]
-    }
-  },
-}
-</script>
 
 <style lang="scss" scoped>
 .work-nav {

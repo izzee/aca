@@ -2,7 +2,7 @@
 <template>
   <NuxtLayout>
     <ContentDoc v-slot="{ doc }">
-      <main>
+      <main v-motion-fade-visible-once>
         <section class="about-intro">
           <NuxtImg 
             :src="`/aca/${doc.hero}`"
