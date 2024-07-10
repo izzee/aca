@@ -25,7 +25,6 @@
 </template>
 
 <style scoped lang="scss">
-
   form {
     height: 100%;
     display: flex;
@@ -110,5 +109,4 @@
       border-color: $blue;
     }
  }
-
 </style>
