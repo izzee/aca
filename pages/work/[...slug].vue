@@ -29,6 +29,7 @@
               loading="lazy"
               provider="cloudinary"
               v-motion-fade-visible-once
+              @load="updateLoadCount"
             />
           </div>
         </main>
@@ -39,6 +40,14 @@
   </NuxtLayout>
 </template>
 
+<script setup>
+  const loadCount = ref(0)
+
+  const updateLoadCount = () => {
+    
+    console.log('loadcount', loadCount.value)
+  }
+</script>
 
 <style lang="scss" scoped>
   .project-hero {
