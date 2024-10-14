@@ -6,7 +6,6 @@ media_library:
   name: cloudinary
   config:
     cloud_name: izzee
-    output_filename_only: true
     api_key: 478312484494422
 
 collections:
