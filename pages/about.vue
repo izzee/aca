@@ -104,6 +104,7 @@
     display: grid;
     grid-gap: 16px;
     grid-template-columns: repeat(2, 1fr);
+    text-align: center;
 
     @include bp(sm) {
       grid-gap: 32px;
