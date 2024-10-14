@@ -15,23 +15,23 @@ description: Working closely with designer Rose Tarlow, we developed an interior
   by Ms. Tarlow in Europe, scaling the rooms and ornament in harmony with these
   elements.
 photographer: Michel Arnaud
-hero: sunshine-ranch-1.jpg
+hero: https://res.cloudinary.com/izzee/image/upload/v1719869067/aca/sunshine-ranch-1.jpg
 images:
-  - image: sunshine-ranch-2.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869211/aca/sunshine-ranch-2.jpg
     orientation: landscape
-  - image: sunshine-ranch-3.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869212/aca/sunshine-ranch-3.jpg
     orientation: portrait
-  - image: sunshine-ranch-4.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869213/aca/sunshine-ranch-4.jpg
     orientation: portrait
-  - image: sunshine-ranch-5.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869214/aca/sunshine-ranch-5.jpg
     orientation: landscape
-  - image: sunshine-ranch-6.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869214/aca/sunshine-ranch-6.jpg
     orientation: portrait
-  - image: sunshine-ranch-7.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869215/aca/sunshine-ranch-7.jpg
     orientation: portrait
-  - image: sunshine-ranch-8.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869216/aca/sunshine-ranch-8.jpg
     orientation: landscape
-  - image: sunshine-ranch-9.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869217/aca/sunshine-ranch-9.jpg
     orientation: landscape
-  - image: sunshine-ranch-10.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869217/aca/sunshine-ranch-10.jpg
     orientation: landscape
