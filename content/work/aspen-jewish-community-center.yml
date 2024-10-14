@@ -1,6 +1,7 @@
 title: Aspen Jewish Community Center
 category: institutional
 location: Aspen, CO
+size: " "
 type: Exterior and interior architecture
 description: The Aspen Jewish Community Center has been heralded as the first
   building ever built in the Roaring Fork Valley fully dedicated to serving the
@@ -27,40 +28,40 @@ description: The Aspen Jewish Community Center has been heralded as the first
 photographer: David Marlow
 hero: aspen-jewish-community-center-1.jpg
 images:
-  - image: aspen-jewish-community-center-2.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869101/aca/aspen-jewish-community-center-2.jpg
     orientation: landscape
     alt: this is text alt text
-  - image: aspen-jewish-community-center-3.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869102/aca/aspen-jewish-community-center-3.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-4.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869102/aca/aspen-jewish-community-center-4.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-5.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869103/aca/aspen-jewish-community-center-5.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-6.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869103/aca/aspen-jewish-community-center-6.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-7.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869103/aca/aspen-jewish-community-center-7.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-8.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869104/aca/aspen-jewish-community-center-8.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-9.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869104/aca/aspen-jewish-community-center-9.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-10.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869105/aca/aspen-jewish-community-center-10.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-11.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869105/aca/aspen-jewish-community-center-11.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-12.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869106/aca/aspen-jewish-community-center-12.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-13.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869106/aca/aspen-jewish-community-center-13.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-14.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869106/aca/aspen-jewish-community-center-14.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-15.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869107/aca/aspen-jewish-community-center-15.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-17.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869108/aca/aspen-jewish-community-center-16.jpg
     orientation: landscape
-  - image: aspen-jewish-community-center-18.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869108/aca/aspen-jewish-community-center-18.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-19.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869109/aca/aspen-jewish-community-center-19.jpg
     orientation: portrait
-  - image: aspen-jewish-community-center-16.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1719869108/aca/aspen-jewish-community-center-16.jpg
     orientation: landscape
