@@ -1,23 +1,26 @@
 title: Home
-text: Arthur Chabon Architects is a New York based architecture and design firm with an international practice specializing in high-end <a href="/work/residential">residential</a> and <a href="/work/institutional">institutional</a> projects.
+text: Arthur Chabon Architects is a New York based architecture and design firm
+  with an international practice specializing in high-end <a
+  href="/work/residential">residential</a> and <a
+  href="/work/institutional">institutional</a> projects.
 hero:
-  - image: hero1.jpg
-  - image: hero2.jpg
-  - image: hero3.jpg
-  - image: hero4.jpg
-  - image: hero5.jpg
-  - image: hero6.jpg
-  - image: hero7.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1720031853/aca/hero1.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1720031856/aca/hero2.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1720031858/aca/hero3.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1720031858/aca/hero3.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1720031750/aca/hero5.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1720031811/aca/hero6.jpg
+  - image: https://res.cloudinary.com/izzee/image/upload/v1720031834/aca/hero7.jpg
 press:
-  - logos: 
-    - image: 'architectural-digest.svg'
-    - image: 'huffpost.svg'
-  - logos: 
-    - image: 'luxe.png'
-    - image: 'coloradohomes.svg'
-    - image: 'aspenmagazine.png'
+  - logos:
+      - image: architectural-digest.svg
+      - image: huffpost.svg
+  - logos:
+      - image: luxe.png
+      - image: coloradohomes.svg
+      - image: aspenmagazine.png
 work:
-  - category: 'residential'
-    image: 'hero1.jpg'
-  - category: 'institutional'
-    image: 'hero2.jpg'
+  - category: residential
+    image: hero1.jpg
+  - category: institutional
+    image: hero2.jpg
