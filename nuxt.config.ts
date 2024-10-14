@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', "@nuxt/image", '@vueuse/motion/nuxt'],
   image: {
     cloudinary: {
-      baseURL: '/'
+      baseURL: 'https://res.cloudinary.com/izzee/image/upload/'
     }
   },
   css: [
