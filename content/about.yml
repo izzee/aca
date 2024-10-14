@@ -18,8 +18,8 @@ intro:
       print periodicals and on-line publications including Architectural Digest,
       Colorado Homes, Aspen Magazine, the Huffington Post and more.
 title: About
-hero: office.jpg
-principal_image: ArthurChabon.jpg
+hero: https://res.cloudinary.com/izzee/image/upload/v1720031717/aca/office.jpg
+principal_image: https://res.cloudinary.com/izzee/image/upload/v1720037250/aca/ArthurChabon.jpg
 principal_name: ARTHUR D. CHABON
 principal_title: AIA | Principal
 principal_text: Prior to starting his own firm, Mr. Chabon was an Associate
@@ -36,19 +36,19 @@ principal_text: Prior to starting his own firm, Mr. Chabon was an Associate
 team:
   - name: Kin Ming Huang
     title: AIA | Associate
-    image: KinMingHuang.jpg
+    image: https://res.cloudinary.com/izzee/image/upload/v1720037276/aca/KinMingHuang.jpg
   - name: Matthew Paul Cairo
     title: Studio Director
-    image: MatthewPaulCairo.jpg
+    image: https://res.cloudinary.com/izzee/image/upload/v1720037363/aca/MatthewPaulCairo.jpg
   - name: Teal Usher
     title: Senior Project Manager
-    image: TealUsher.jpg
+    image: https://res.cloudinary.com/izzee/image/upload/v1720037364/aca/TealUsher.jpg
   - name: Linda Facci
     title: Senior Office Administrator
-    image: LindaFacci.jpg
+    image: https://res.cloudinary.com/izzee/image/upload/v1720037326/aca/LindaFacci.jpg
   - name: Leandro Puerto
     title: Digital Visualization
-    image: LeandroPuerto.jpg
+    image: https://res.cloudinary.com/izzee/image/upload/v1720037325/aca/LeandroPuerto.jpg
   - name: Kush Shah
     title: Architectural Designer
     image: https://res.cloudinary.com/izzee/image/upload/v1728937783/KushShah.png
