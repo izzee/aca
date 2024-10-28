@@ -3,22 +3,22 @@
     <ContentDoc v-slot="{ doc }">
       <main v-motion-fade-visible-once>
         <h2 v-html="doc.text"/>
-      <form netlify
-          netlify-honeypot
+        <form 
+          netlify
           name="contact"
           method="POST"
           action="/"
         >
-        <input type="hidden" name="form-name" value="contact" />
-        <input type="text" name="name" placeholder="Name">
-        <input type="email" name="email" placeholder="Email">
-        <input type="tel" name="tel" placeholder="Telephone">
-        <div class="message-wrapper">
-          <textarea type="text" name="message"></textarea>
-          <label for="message">Message</label>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="Email">
+          <input type="tel" name="tel" placeholder="Telephone">
+          <div class="message-wrapper">
+            <textarea type="text" name="message"></textarea>
+            <label for="message">Message</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </main>
     </ContentDoc>
   </NuxtLayout>
