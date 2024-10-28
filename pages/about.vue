@@ -124,7 +124,6 @@
       margin: auto;
       margin-bottom: 16px;
       background-color: $gray-light;
-  
     }
   }
 </style>
