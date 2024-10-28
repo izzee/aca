@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <CldImage 
+    <NuxtImg 
       v-for="(image, index) in props.images" 
       :key="image.image"
       :src="`aca/${image.image}`" 

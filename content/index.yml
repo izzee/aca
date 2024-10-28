@@ -4,23 +4,23 @@ text: Arthur Chabon Architects is a New York based architecture and design firm
   href="/work/residential">residential</a> and <a
   href="/work/institutional">institutional</a> projects.
 hero:
-  - image: hero1.jpg
-  - image: hero2.jpg
-  - image: hero3.jpg
-  - image: hero3.jpg
-  - image: hero5.jpg
-  - image: hero6.jpg
-  - image: hero7.jpg
+  - image: /hero1.jpg
+  - image: /hero2.jpg
+  - image: /hero3.jpg
+  - image: /hero3.jpg
+  - image: /hero5.jpg
+  - image: /hero6.jpg
+  - image: /hero7.jpg
 press:
   - logos:
-      - image: architectural-digest.svg
-      - image: huffpost.svg
+      - image: /architectural-digest.svg
+      - image: /huffpost.svg
   - logos:
-      - image: luxe.png
-      - image: coloradohomes.svg
-      - image: aspenmagazine.png
+      - image: /luxe.png
+      - image: /coloradohomes.svg
+      - image: /aspenmagazine.png
 work:
   - category: residential
-    image: hero1.jpg
+    image: /hero1.jpg
   - category: institutional
-    image: hero2.jpg
+    image: /hero2.jpg

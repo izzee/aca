@@ -20,11 +20,11 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@nuxt/image', '@vueuse/motion/nuxt', '@nuxtjs/cloudinary'],
+  modules: ['@nuxt/content', '@nuxt/image', '@vueuse/motion/nuxt'],
 
   image: {
     cloudinary: {
-      baseURL: ''
+      baseURL: 'https://res.cloudinary.com/izzee/image/upload/'
     }
   },
 
