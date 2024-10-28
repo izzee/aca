@@ -26,10 +26,11 @@
               :src="`aca/${image.image}`" 
               :alt="image.alt || ''"
               :class="image.orientation"
-              loading="lazy"
               provider="cloudinary"
+              loading="lazy"
               v-motion-fade-visible-once
               @load="updateLoadCount"
+
             />
           </div>
         </main>
