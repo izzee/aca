@@ -10,10 +10,6 @@
           v-html="doc.text"
           v-motion-fade-visible-once 
         />
-        <form name="test" method="POST" data-netlify="true">
-          <input type="text" name="name" placeholder="Name">
-          <button type="submit">Submit</button>
-        </form>
         <HomePress 
           :press="doc.press"
           v-motion-fade-visible-once
