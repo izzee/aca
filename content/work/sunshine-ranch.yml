@@ -35,5 +35,5 @@ images:
     orientation: landscape
   - image: sunshine-ranch-10.jpg
     orientation: landscape
-  - image: /placeholder.jpg
-    orientation: landscape
+  - image: /sunshine-ranch-13.jpg
+    orientation: portrait
