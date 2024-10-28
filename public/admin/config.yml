@@ -3,11 +3,10 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 media_library:
-  name: cloudinary
+  name: uploadcare
   output_filename_only: true
   config:
-    cloud_name: izzee
-    api_key: 478312484494422
+    public_key: abe206fb1b85e704acdf
 
 collections:
   - label: 'Pages'
