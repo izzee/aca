@@ -1,0 +1,11 @@
+title: Test
+category: residential
+location: test
+size: test
+type: test
+description: test
+photographer: test
+hero: /hero1.jpg
+images:
+  - image: https://res.cloudinary.com/izzee/image/upload/v1729007398/placeholder.png
+    orientation: landscape
