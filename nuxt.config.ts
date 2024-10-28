@@ -18,17 +18,21 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   devtools: { enabled: true },
   modules: ['@nuxt/content', "@nuxt/image", '@vueuse/motion/nuxt'],
+
   image: {
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/izzee/image/upload/'
     }
   },
+
   css: [
     '~/assets/main.scss',
     '~/assets/type.scss'
   ],
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -38,7 +42,10 @@ export default defineNuxtConfig({
       },
     },
   },
+
   routeRules: {
     '/': { prerender: true }
-  }
+  },
+
+  compatibilityDate: '2024-10-28'
 })
