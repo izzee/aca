@@ -3,7 +3,7 @@
     <ContentDoc v-slot="{ doc }">
       <main v-motion-fade-visible-once>
         <h2 v-html="doc.text"/>
-        <form 
+        <!-- <form 
           netlify
           name="contact"
           method="POST"
@@ -18,7 +18,7 @@
             <label for="message">Message</label>
           </div>
           <button type="submit">Submit</button>
-        </form>
+        </form> -->
       </main>
     </ContentDoc>
   </NuxtLayout>
