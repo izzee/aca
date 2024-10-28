@@ -27,7 +27,6 @@
               :alt="image.alt || ''"
               :class="image.orientation"
               loading="lazy"
-              provider="cloudinary"
               v-motion-fade-visible-once
               @load="updateLoadCount"
             />
