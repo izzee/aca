@@ -3,7 +3,7 @@
     <ContentDoc v-slot="{ doc }">
       <main v-motion-fade-visible-once>
         <h2 v-html="doc.text"/>
-        <form name="form" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action="/success">
           <input type="text" name="name" placeholder="Name">
           <input type="email" name="email" placeholder="Email">
           <input type="tel" name="tel" placeholder="Telephone">
