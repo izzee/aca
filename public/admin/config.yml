@@ -5,7 +5,7 @@ backend:
 media_library:
   name: uploadcare
   config:
-    public_key: abe206fb1b85e704acdf
+    publicKey: abe206fb1b85e704acdf
 
 collections:
   - label: 'Pages'
