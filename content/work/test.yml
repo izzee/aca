@@ -5,7 +5,7 @@ size: test
 type: test
 description: test
 photographer: test
-hero: https://res.cloudinary.com/izzee/image/upload/v1729007398/placeholder.png
+hero: /hero1.jpg
 images:
   - image: https://res.cloudinary.com/izzee/image/upload/v1729007398/placeholder.png
     orientation: landscape
