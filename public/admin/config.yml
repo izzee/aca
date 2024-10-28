@@ -4,7 +4,7 @@ backend:
 
 media_library:
   name: cloudinary
-  output_filename_only: true
+  output_filename_only: false
   config:
     cloud_name: izzee
     api_key: 478312484494422
