@@ -30,6 +30,7 @@
               provider="uploadcare"
               v-motion-fade-visible-once
               @load="updateLoadCount"
+
             />
           </div>
         </main>
