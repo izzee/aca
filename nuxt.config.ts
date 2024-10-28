@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@nuxt/image', '@vueuse/motion/nuxt', '@nuxtjs/cloudinary'],
+  modules: ['@nuxt/content', '@nuxt/image', '@vueuse/motion/nuxt'],
 
   image: {
     uploadcare: {
