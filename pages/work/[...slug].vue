@@ -20,7 +20,7 @@
             <p class="project-description" v-html="doc.description" />
           </div>
           <div class="project-images">
-            <NuxtImage 
+            <NuxtImg 
               v-for="image in doc.images"
               :key="image.image"
               :src="image.image" 
