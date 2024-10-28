@@ -4,7 +4,7 @@
     <ContentDoc>
       <template v-slot="{ doc }">
         <main>
-          <NuxtImg 
+          <CldImage 
             :src="`aca/${doc.hero}`"
             class="project-hero"
             provider="cloudinary"
@@ -20,7 +20,7 @@
             <p class="project-description" v-html="doc.description" />
           </div>
           <div class="project-images">
-            <NuxtImg 
+            <CldImage 
               v-for="image in doc.images"
               :key="image.image"
               :src="`aca/${image.image}`" 
