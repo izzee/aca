@@ -4,7 +4,7 @@
       <NuxtLink :to="`/work/${category.category}`">
         <NuxtImg 
           width="900px"
-          :src="`/aca/${category.image}`" 
+          :src="category.image" 
           provider="uploadcare"
         />
         <h2>{{category.category}}</h2>

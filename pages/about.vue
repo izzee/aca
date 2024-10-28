@@ -5,7 +5,7 @@
       <main v-motion-fade-visible-once>
         <section class="about-intro">
           <NuxtImg 
-            :src="`/aca/${doc.hero}`"
+            :src="doc.hero"
             provider="uploadcare"
           />
           <div class="content">
@@ -14,7 +14,7 @@
         </section>
         
         <section class="about-principal">
-        <NuxtImg :src="`/aca/${doc.principal_image}`" provider="uploadcare"/>
+        <NuxtImg :src="doc.principal_image" provider="uploadcare"/>
       
           <div class="principal-info">
             <p> {{doc.principal_name}} </p>
@@ -28,7 +28,7 @@
             <NuxtImg 
               provider="uploadcare"
               width="320"
-              :src="`/aca/${person.image}`" 
+              :src="person.image" 
             />
             <p>{{person.name}}</p>
             <p>{{person.title}}</p>

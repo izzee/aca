@@ -3,7 +3,7 @@
     <NuxtImg 
       v-for="(image, index) in props.images" 
       :key="image.image"
-      :src="`aca/${image.image}`" 
+      :src="image.image" 
       :alt="image.alt || ''"
       :class="`${activeSlide === index ? 'active' : ''}`"
       provider="uploadcare"

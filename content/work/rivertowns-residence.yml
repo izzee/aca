@@ -13,11 +13,9 @@ description: An interior renovation of a modest suburban home, this project is
   Bathroom was similarly transformed with modest materials and simple
   re-planning. Elizabeth Schumacher elegantly redecorated the spaces.
 photographer: Whitney Cox
-hero: rivertowns-residence-1.jpg
+hero: https://ucarecdn.com/d50ae83f-3be2-42a3-95fb-f01b85c1de81
 images:
-  - image: rivertowns-residence-2.jpg
+  - image: https://ucarecdn.com/3fe0d157-f3a3-4ed9-b212-8eeda760699a
     orientation: portrait
-    alt: " "
-  - image: rivertowns-residence-4.jpg
+  - image: https://ucarecdn.com/fd285e11-84a5-404f-90be-d404f7b36b67
     orientation: landscape
-    alt: " "

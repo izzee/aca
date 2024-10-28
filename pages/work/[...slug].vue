@@ -5,7 +5,7 @@
       <template v-slot="{ doc }">
         <main>
           <NuxtImg 
-            :src="`aca/${doc.hero}`"
+            :src="doc.hero"
             class="project-hero"
             provider="uploadcare"
             v-motion-fade-visible-once 
@@ -23,13 +23,14 @@
             <NuxtImg 
               v-for="image in doc.images"
               :key="image.image"
-              :src="`aca/${image.image}`" 
+              :src="image.image" 
               :alt="image.alt || ''"
               :class="image.orientation"
               loading="lazy"
               provider="uploadcare"
               v-motion-fade-visible-once
               @load="updateLoadCount"
+
             />
           </div>
         </main>
