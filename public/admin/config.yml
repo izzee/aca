@@ -4,7 +4,6 @@ backend:
 
 media_library:
   name: uploadcare
-  output_filename_only: true
   config:
     public_key: abe206fb1b85e704acdf
 

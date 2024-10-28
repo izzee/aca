@@ -11,7 +11,7 @@
         :alt="logo.alt || ''"
         height="80"
         class="press-icon"
-        provider="cloudinary"
+        provider="uploadcare"
       />
     </div>
   </div>

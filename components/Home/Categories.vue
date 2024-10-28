@@ -5,7 +5,7 @@
         <NuxtImg 
           width="900px"
           :src="`/aca/${category.image}`" 
-          provider="cloudinary"
+          provider="uploadcare"
         />
         <h2>{{category.category}}</h2>
       </NuxtLink>

@@ -6,7 +6,7 @@
       :src="`aca/${image.image}`" 
       :alt="image.alt || ''"
       :class="`${activeSlide === index ? 'active' : ''}`"
-      provider="cloudinary"
+      provider="uploadcare"
     />
   </div>
 </template>

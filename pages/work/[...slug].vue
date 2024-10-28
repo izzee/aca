@@ -7,7 +7,7 @@
           <NuxtImg 
             :src="`aca/${doc.hero}`"
             class="project-hero"
-            provider="cloudinary"
+            provider="uploadcare"
             v-motion-fade-visible-once 
           />
           <div class="project-info">
@@ -27,7 +27,7 @@
               :alt="image.alt || ''"
               :class="image.orientation"
               loading="lazy"
-              provider="cloudinary"
+              provider="uploadcare"
               v-motion-fade-visible-once
               @load="updateLoadCount"
             />
