@@ -7,5 +7,5 @@ description: test
 photographer: test
 hero: /hero1.jpg
 images:
-  - image: https://res.cloudinary.com/izzee/image/upload/v1720031853/aca/hero1.jpg
+  - image: https://ucarecdn.com/3c239fb8-863e-4dea-80d9-ce3ed016bb99/
     orientation: landscape
