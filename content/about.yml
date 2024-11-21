@@ -18,8 +18,8 @@ intro:
       print periodicals and on-line publications including Architectural Digest,
       Colorado Homes, Aspen Magazine, the Huffington Post and more.
 title: About
-hero: /office.jpg
-principal_image: /ArthurChabon.jpg
+hero: https://ucarecdn.com/0ff5b5d4-15c7-4668-8676-c6beb386f349/
+principal_image: https://ucarecdn.com/16c63675-926a-43fd-9cf6-3ee3221175bc/
 principal_name: ARTHUR D. CHABON
 principal_title: AIA | Principal
 principal_text: Prior to starting his own firm, Mr. Chabon was an Associate
@@ -36,16 +36,16 @@ principal_text: Prior to starting his own firm, Mr. Chabon was an Associate
 team:
   - name: Kin Ming Huang
     title: AIA | Associate
-    image: KinMingHuang.jpg
+    image: https://ucarecdn.com/f91e38a6-faa1-49aa-bb58-7f20594c3375/
   - name: Matthew Paul Cairo
     title: Studio Director
-    image: MatthewPaulCairo.jpg
+    image: https://ucarecdn.com/709bd8de-2b52-429c-a558-86e5d42e8d94/
   - name: Teal Usher
     title: Senior Project Manager
-    image: TealUsher.jpg
+    image: https://ucarecdn.com/0c17ba7a-fcc9-4c59-813c-f173a4cba878/
   - name: Linda Facci
     title: Senior Office Administrator
-    image: LindaFacci.jpg
+    image: https://ucarecdn.com/ae2920b4-2b54-4fb2-91ab-18ee5feaa14d/
   - name: Leandro Puerto
     title: Digital Visualization
-    image: LeandroPuerto.jpg
+    image: https://ucarecdn.com/eba11c82-d6a3-4e19-ba06-4b1a6c390e63/

@@ -7,10 +7,10 @@
     >
       <NuxtLink :to="item._path" class="thumbnail">
         <NuxtImg 
-          provider="cloudinary"
+          provider="uploadcare"
           loading="lazy"
           width="600"
-          :src="`/aca/${item.hero}`"
+          :src="item.hero"
         />
         
         <p v-html="item.title" />

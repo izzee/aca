@@ -5,8 +5,8 @@
       <main v-motion-fade-visible-once>
         <section class="about-intro">
           <NuxtImg 
-            :src="`/aca/${doc.hero}`"
-            provider="cloudinary"
+            :src="doc.hero"
+            provider="uploadcare"
           />
           <div class="content">
             <p v-for="text in doc.intro">{{text.text}}</p>
@@ -14,7 +14,7 @@
         </section>
         
         <section class="about-principal">
-        <NuxtImg :src="`/aca/${doc.principal_image}`" provider="cloudinary"/>
+        <NuxtImg :src="doc.principal_image" provider="uploadcare"/>
       
           <div class="principal-info">
             <p> {{doc.principal_name}} </p>
@@ -26,9 +26,9 @@
         <section class="about-team">
           <div v-for="person in doc.team">
             <NuxtImg 
-              provider="cloudinary"
+              provider="uploadcare"
               width="320"
-              :src="`/aca/${person.image}`" 
+              :src="person.image" 
             />
             <p>{{person.name}}</p>
             <p>{{person.title}}</p>

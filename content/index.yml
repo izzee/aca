@@ -4,23 +4,24 @@ text: Arthur Chabon Architects is a New York based architecture and design firm
   href="/work/residential">residential</a> and <a
   href="/work/institutional">institutional</a> projects.
 hero:
-  - image: /hero1.jpg
-  - image: /hero2.jpg
-  - image: /hero3.jpg
-  - image: /hero3.jpg
-  - image: /hero5.jpg
-  - image: /hero6.jpg
-  - image: /hero7.jpg
+
+  - image: https://ucarecdn.com/3ca5a2a5-2bca-4fd6-a217-42317773c425/
+  - image:  https://ucarecdn.com/6d4a970b-35f3-4951-b8f5-13f829b682df
+  - image:  https://ucarecdn.com/9766573b-7f67-46be-82a1-60cd77af7fde
+  - image:  https://ucarecdn.com/9959589b-edf0-49dc-9c54-109db8a59047
+  - image:  https://ucarecdn.com/8836f61e-c8e0-403c-8a06-79b4cc990f19
+  - image:  https://ucarecdn.com/a527dfa2-f8d1-437a-ba51-8172baf9173a
+  - image:  https://ucarecdn.com/b2c06380-0c2b-49fa-b5ce-bc09e18328df
 press:
   - logos:
-      - image: /architectural-digest.svg
-      - image: /huffpost.svg
+      - image:  https://ucarecdn.com/7a86445e-c4d1-4beb-90a7-a318636216f2
+      - image:  https://ucarecdn.com/3b660420-3a7c-427a-8df0-b65488c60179
   - logos:
-      - image: /luxe.png
-      - image: /coloradohomes.svg
-      - image: /aspenmagazine.png
+      - image:  https://ucarecdn.com/d534593b-e8d3-4e21-b160-36b90f8626ce
+      - image:  https://ucarecdn.com/dee46aac-7663-44f0-b3fb-610059fb4b23
+      - image:  https://ucarecdn.com/d8a650ca-1f4d-4af6-bf08-aed15d036475
 work:
   - category: residential
-    image: /hero1.jpg
+    image:  https://ucarecdn.com/3ca5a2a5-2bca-4fd6-a217-42317773c425/
   - category: institutional
-    image: /hero3.jpg
+    image:  https://ucarecdn.com/9766573b-7f67-46be-82a1-60cd77af7fde/
