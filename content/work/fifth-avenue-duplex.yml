@@ -5,19 +5,19 @@ size: "4,200 sf"
 type: "Interior Architecture"
 description: "A remodel of a Fifth Avenue penthouse duplex with spectacular views of Central Park, this apartment was designed to feature an important collection of modern art and to provide a comfortable relaxed atmosphere for an “empty nest” couple. Working with the designer Mica Ertegun, we created a crisp and clear architectural background. We opened up separated spaces and replaced elaborate moldings with simplified ones."
 photographer: "Michel Arnaud"
-hero: https://ucarecdn.com/cea20b74-70e8-4993-ba0d-72c7749b192c
-images: 
-  - image: https://ucarecdn.com/fd772aa9-66e2-4721-a03c-58bf990dbbd3
+hero: https://ucarecdn.com/cea20b74-70e8-4993-ba0d-72c7749b192c/
+images:
+  - image: https://ucarecdn.com/fd772aa9-66e2-4721-a03c-58bf990dbbd3/
     orientation: landscape
-  - image: https://ucarecdn.com/3b1b5fa6-e393-435a-8570-b705cac0c4fc
+  - image: https://ucarecdn.com/3b1b5fa6-e393-435a-8570-b705cac0c4fc/
     orientation: landscape
-  - image: https://ucarecdn.com/3f95637f-c05a-4866-b5b1-137ec202efb9
+  - image: https://ucarecdn.com/3f95637f-c05a-4866-b5b1-137ec202efb9/
     orientation: portrait
-  - image: https://ucarecdn.com/36efe245-90bd-4c47-92c9-ead3f0348edf
+  - image: https://ucarecdn.com/36efe245-90bd-4c47-92c9-ead3f0348edf/
     orientation: portrait
-  - image: https://ucarecdn.com/87c2d2e3-e2fd-4bb2-8dda-2ec13e55ccf4
+  - image: https://ucarecdn.com/87c2d2e3-e2fd-4bb2-8dda-2ec13e55ccf4/
     orientation: landscape
-  - image: https://ucarecdn.com/ce583d47-a453-4d25-8053-8902671ce601
+  - image: https://ucarecdn.com/ce583d47-a453-4d25-8053-8902671ce601/
     orientation: portrait
-  - image: https://ucarecdn.com/3a78cae5-3f31-4dd4-a726-b6c0df2db140
+  - image: https://ucarecdn.com/3a78cae5-3f31-4dd4-a726-b6c0df2db140/
     orientation: landscape
