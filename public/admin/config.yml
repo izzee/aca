@@ -111,10 +111,11 @@ collections:
               search_fields: ['title']
               value_field: 'title'
               display_fields: ['title', 'category']
+              filter: {field: 'category', value: 'residential'}
     
-    - name: 'commercial-work'
-      label: 'Commercial Work'
-      file: 'content/commercial-work.yml'
+    - name: 'institutional-work'
+      label: 'Institutional Work'
+      file: 'content/institutional-work.yml'
       format: 'yaml'
       editor:
         preview: false
@@ -130,6 +131,7 @@ collections:
               search_fields: ['title']
               value_field: 'title'
               display_fields: ['title', 'category']
+              filter: {field: 'category', value: 'institutional'}
 
   - name: 'work'
     label: 'Work'
