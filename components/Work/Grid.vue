@@ -12,7 +12,6 @@
           width="600"
           :src="item.hero"
         />
-        
         <p v-html="item.title" />
       </NuxtLink>
     </div>
@@ -24,7 +23,7 @@
   
   const pageMap = {
     'residential': 'residential-work',
-    'institutional': 'commercial-work'
+    'institutional': 'institutional-work'
   }
   
   const pageName = pageMap[props.category]
