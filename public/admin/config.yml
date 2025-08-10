@@ -98,7 +98,7 @@ collections:
     files:
     - name: 'residential-work'
       label: 'Residential Work'
-      file: 'content/work-pages/residential-work.yml'
+      file: 'content/residential-work.yml'
       format: 'yaml'
       editor:
         preview: false
@@ -116,7 +116,7 @@ collections:
               display_fields: ['title', 'category']
     - name: 'commercial-work'
       label: 'Commercial Work'
-      file: 'content/work-pages/commercial-work.yml'
+      file: 'content/commercial-work.yml'
       format: 'yaml'
       editor:
         preview: false
