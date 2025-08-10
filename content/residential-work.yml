@@ -1,4 +1,5 @@
 projects:
+  - project: "House in the Bahamas"
   - project: "Sunshine Ranch"
   - project: "Family Compound"
   - project: "Riverbend Compound"
@@ -14,4 +15,3 @@ projects:
   - project: "Sunshine Ranch Art Studio"
   - project: "A Family Farm"
   - project: "A Small Guest House"
-  - project: "House in the Bahamas"
