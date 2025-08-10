@@ -22,7 +22,6 @@
 <script setup>
   const props = defineProps(['category'])
   
-  // Map category prop to work-pages file
   const pageMap = {
     'residential': 'residential-work',
     'institutional': 'commercial-work'
@@ -34,7 +33,7 @@
   }
   
   // Get the ordered list of project titles
-  const workPage = await queryContent(`work-pages/${pageName}`).findOne()
+  const workPage = await queryContent(`${pageName}`).findOne()
   const projectTitles = workPage?.projects?.map(p => p.project) || []
   
   // Fetch the full project data for each title in order

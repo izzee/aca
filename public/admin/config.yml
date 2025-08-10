@@ -93,9 +93,6 @@ collections:
         - {label: 'Title', name: 'title', widget: 'hidden' }
         - {label: 'Text', name: 'text', widget: 'string'}
 
-  - label: 'Work Pages'
-    name: 'work-pages'
-    files:
     - name: 'residential-work'
       label: 'Residential Work'
       file: 'content/residential-work.yml'
@@ -114,6 +111,7 @@ collections:
               search_fields: ['title']
               value_field: 'title'
               display_fields: ['title', 'category']
+    
     - name: 'commercial-work'
       label: 'Commercial Work'
       file: 'content/commercial-work.yml'
@@ -142,7 +140,6 @@ collections:
     editor:
       preview: false
     sortable_fields: ['title', 'category']
-    summary: '{{title}} ({{category}})'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'select', options: ['residential', 'institutional', 'projects'] }
