@@ -102,9 +102,9 @@ collections:
     editor:
       preview: false
     sortable_fields: ['order', 'title', 'category']
-    summary: '{{title}} ({{category}}) - Order: {{order}}'
+    summary: '{{title}} - index: {{order}}'
     fields:
-      - { label: 'Order (1 = first, 2 = second, etc.)', name: 'order', widget: 'number', value_type: 'int', min: 1, hint: 'Controls the display order on the website. Lower numbers appear first.' }
+      - { label: 'Order', name: 'order', widget: 'number', value_type: 'int', min: 1, hint: 'Controls the display order on the website. Lower numbers appear first.' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'select', options: ['residential', 'institutional', 'projects'] }
       - { label: 'Location', name: 'location', widget: 'string'}
