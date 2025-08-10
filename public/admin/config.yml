@@ -93,6 +93,36 @@ collections:
         - {label: 'Title', name: 'title', widget: 'hidden' }
         - {label: 'Text', name: 'text', widget: 'string'}
 
+    - name: 'residential-work'
+      label: 'Residential Work'
+      file: 'content/residential-work.yml'
+      format: 'yaml'
+      editor:
+        preview: false
+      fields:
+        - label: 'Projects'
+          name: 'projects'
+          widget: 'list'
+          fields:
+            - label: 'Project'
+              name: 'project'
+              widget: 'string'
+    
+    - name: 'institutional-work'
+      label: 'Institutional Work'
+      file: 'content/institutional-work.yml'
+      format: 'yaml'
+      editor:
+        preview: false
+      fields:
+        - label: 'Projects'
+          name: 'projects'
+          widget: 'list'
+          fields:
+            - label: 'Project'
+              name: 'project'
+              widget: 'string'
+
   - name: 'work'
     label: 'Work'
     folder: 'content/work'
@@ -101,10 +131,8 @@ collections:
     slug: '{{title}}'
     editor:
       preview: false
-    sortable_fields: ['order', 'title', 'category']
-    summary: '{{title}} - index: {{order}}'
+    sortable_fields: ['title', 'category']
     fields:
-      - { label: 'Order', name: 'order', widget: 'number', value_type: 'int', min: 1, hint: 'Controls the display order on the website. Lower numbers appear first.' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'select', options: ['residential', 'institutional', 'projects'] }
       - { label: 'Location', name: 'location', widget: 'string'}
