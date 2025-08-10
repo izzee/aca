@@ -21,7 +21,30 @@
 
 <script setup>
   const props = defineProps(['category'])
-  const work = await queryContent('work').where({ category: { $match: props.category } }).sort({ order: 1 }).find()
+  
+  // Map category prop to work-pages file
+  const pageMap = {
+    'residential': 'residential-work',
+    'institutional': 'commercial-work'
+  }
+  
+  const pageName = pageMap[props.category]
+  if (!pageName) {
+    throw new Error(`Unknown category: ${props.category}`)
+  }
+  
+  // Get the ordered list of project titles
+  const workPage = await queryContent(`work-pages/${pageName}`).findOne()
+  const projectTitles = workPage?.projects?.map(p => p.project) || []
+  
+  // Fetch the full project data for each title in order
+  const work = []
+  for (const title of projectTitles) {
+    const project = await queryContent('work').where({ title: { $eq: title } }).findOne()
+    if (project) {
+      work.push(project)
+    }
+  }
 </script>
 
 <style lang="scss" scoped>
