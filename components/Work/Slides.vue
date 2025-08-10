@@ -16,7 +16,7 @@
 
 <script setup>
   const props = defineProps(['category'])
-  const work = await queryContent('work').where({ category: { $match: props.category } }).find()
+  const work = await queryContent('work').where({ category: { $match: props.category } }).sort({ order: 1 }).find()
 </script>
 
 <style lang="scss" scoped>

@@ -5,7 +5,7 @@ backend:
 media_library:
   name: uploadcare
   config:
-    publicKey: abe206fb1b85e704acdf
+    publicKey: 1a35a4350968c3bde43c
 
 collections:
   - label: 'Pages'
@@ -101,9 +101,11 @@ collections:
     slug: '{{title}}'
     editor:
       preview: false
+    sortable_fields: ['order', 'title', 'category']
     fields:
+      - { label: 'Order', name: 'order', widget: 'number', value_type: 'int', min: 1 }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Category', name: 'category', widget: 'select', options: ['residential', 'institutional'] }
+      - { label: 'Category', name: 'category', widget: 'select', options: ['residential', 'institutional', 'projects'] }
       - { label: 'Location', name: 'location', widget: 'string'}
       - { label: 'Size', name: 'size', widget: 'string'}
       - { label: 'Type', name: 'type', widget: 'string'}
