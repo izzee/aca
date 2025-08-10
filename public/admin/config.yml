@@ -106,12 +106,7 @@ collections:
           fields:
             - label: 'Project'
               name: 'project'
-              widget: 'relation'
-              collection: 'work'
-              search_fields: ['title']
-              value_field: 'title'
-              display_fields: ['title', 'category']
-              filter: {field: 'category', value: 'residential'}
+              widget: 'string'
     
     - name: 'institutional-work'
       label: 'Institutional Work'
@@ -126,12 +121,7 @@ collections:
           fields:
             - label: 'Project'
               name: 'project'
-              widget: 'relation'
-              collection: 'work'
-              search_fields: ['title']
-              value_field: 'title'
-              display_fields: ['title', 'category']
-              filter: {field: 'category', value: 'institutional'}
+              widget: 'string'
 
   - name: 'work'
     label: 'Work'
