@@ -31,18 +31,38 @@
     throw new Error(`Unknown category: ${props.category}`)
   }
   
-  // Get the ordered list of project titles
-  const workPage = await queryContent(`${pageName}`).findOne()
+  // Fetch work items and ordering in parallel
+  const [workItems, workPage] = await Promise.all([
+    queryContent('work').where({ category: { $eq: props.category } }).find(),
+    queryContent(pageName).findOne()
+  ])
+  
   const projectTitles = workPage?.projects?.map(p => p.project) || []
   
-  // Fetch the full project data for each title in order
-  const work = []
+  // Create a map for quick lookup
+  const workMap = new Map(workItems.map(item => [item.title, item]))
+  
+  // Reorder based on the project list, maintaining any items not in the list at the end
+  const orderedWork = []
+  const usedTitles = new Set()
+  
+  // Add items in the specified order
   for (const title of projectTitles) {
-    const project = await queryContent('work').where({ title: { $eq: title } }).findOne()
-    if (project) {
-      work.push(project)
+    const item = workMap.get(title)
+    if (item) {
+      orderedWork.push(item)
+      usedTitles.add(title)
     }
   }
+  
+  // Add any remaining items that weren't in the ordered list
+  for (const item of workItems) {
+    if (!usedTitles.has(item.title)) {
+      orderedWork.push(item)
+    }
+  }
+  
+  const work = orderedWork
 </script>
 
 <style lang="scss" scoped>
